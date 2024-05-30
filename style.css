@@ -1,0 +1,89 @@
+ .container{
+    display: block;
+ }
+
+.imgclass{
+    position: relative;
+    height: 272px;
+    width: 92px;
+    display: flex;
+    top:60px;
+    left:500px
+ }
+
+.searchContainer{
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 561px;
+    height: 44px;
+ }
+
+.cam{
+    float:right;
+    position: relative;
+    width: 28px;
+    height: 28px;
+    padding-top:10px;
+    padding-left:5px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.voice{
+    position: relative;
+    width: 23px;
+    height: 23px;
+    margin-left: 20px;
+    padding-top:10px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.searchicon{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+    padding-top:13px;
+ }
+
+.inputsearch {
+    position: relative;
+    width: 500px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+ }
+
+.searchbutton{
+    position: relative;
+    top:40px;
+    left:510px;
+    background-color: #f8f9fa;
+    border:none;
+    height: 30px;
+    width: 120px;
+    font-family: Arial;
+    color:#3c4043;
+    cursor: pointer;
+}
+
+.luckybutton{
+    position: relative;
+    top:40px;
+    left:540px;
+    background-color: #f8f9fa;
+    border:#f8f9fa;
+    height: 30px;
+    width: 120px;
+    font-family: Arial;
+    color:#3c4043;
+    cursor: pointer;
+ }
